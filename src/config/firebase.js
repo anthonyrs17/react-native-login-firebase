@@ -4,15 +4,14 @@ import { getAuth } from "firebase/auth";
 import { initializeAuth, getReactNativePersistence } from 'firebase/auth';
 import ReactNativeAsyncStorage from '@react-native-async-storage/async-storage';
 
-//Aqui vocês devem colocar as suas credenciais
 const firebaseConfig = {
-  apiKey: "",
-  authDomain: "",
-  projectId: "",
-  storageBucket: "",
-  messagingSenderId: "",
-  appId: "",
-  measurementId: ""
+  apiKey: "AIzaSyCptqCHW2WGO9JV1D5PvQtH-A-pR1q_mRI",
+  authDomain: "anthonyifal523.firebaseapp.com",
+  projectId: "anthonyifal523",
+  storageBucket: "anthonyifal523.appspot.com",
+  messagingSenderId: "464335500416",
+  appId: "1:464335500416:web:cfbdf25b5de2223f0e2265",
+  measurementId: "G-G71N94WNST"
 };
 
 const app = initializeApp(firebaseConfig);
